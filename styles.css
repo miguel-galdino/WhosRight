@@ -1,0 +1,156 @@
+body{
+	background-color: #ffcc66;
+	font-family: 'Balsamiq Sans', cursive;
+	color: #664400;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+h1{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 4rem;
+
+}
+
+h2{
+	font-size: 2.2rem;
+}
+
+h3{
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+ img{
+ 	margin: 5% 2% 5% 2%;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px; 
+} 
+
+hr{
+	color: #332200;
+	border: dotted;
+	border-bottom: none;
+    width: 5%;
+    margin: 40px auto;
+}
+
+
+ul{ 
+	text-align: left;
+	padding: 10px;
+}
+
+li{
+	margin-bottom: 2%;
+}
+
+
+.title{
+	margin-top: 3%;
+}
+
+.underline{
+	color: #664400;
+}
+
+.underline:hover, .footer-link:hover{
+	color: #b37700;
+}
+
+.message{
+	margin-bottom: 3%;
+}
+
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #0d181a;
+	background-color:#664400;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.myButton:hover {
+	color: #fff;
+	background-color:#cc8800;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.reset-btn{
+	visibility: hidden;
+}
+
+.info{
+	margin: 5% auto;
+}
+
+.footer{
+	background-color: #664400;
+}
+
+.footer-text{
+	color: #fff;
+	font-size: 1rem;
+}
+
+.footer-link{
+	color: #fff;
+	text-align: center;
+	margin: auto 1%;
+}
+
+
+/* VERSÃO PARA CELULAR */
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+	 body{
+	 	font-size: 1rem;
+
+	 }
+
+	 h1{
+	 	font-size: 3rem;
+	 }
+
+	 h2{
+	 	font-size: 1.5rem;
+	 }
+   
+     img{
+     	margin: 10% 5% auto 5%;
+     	width: 140px;
+     	height: 140px;
+     }
+
+     hr{
+     	width: 10%;
+     }
+
+
+    .action{
+    	margin: 10% auto 5% auto;
+    }
+
+
+    .info{
+    	margin: 5% 5% 10% 5%;
+    }
+
+
+
+}
