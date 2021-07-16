@@ -1,7 +1,5 @@
 
 
-
-
 var fotoJoao = document.querySelector(".landing-photo1");
 var fotoMiguel = document.querySelector(".landing-photo2");
 var mensagem = document.querySelector(".message"); /* local onde a mensagem está */
